@@ -1,0 +1,31 @@
+name: sigr
+dependencies:
+  - python=3.10
+  - conda-forge::numpy=1.21
+  - conda-forge::scipy=1.8
+  - defaults::pandas=1.4
+  - defaults::matplotlib=3.5
+  - conda-forge::seaborn=0.11
+  - conda-forge::ffmpeg=4.3
+  - conda-forge::dask=2022.2
+  - conda-forge::fastparquet=0.8
+  - conda-forge::pyarrow=7.0
+  - conda-forge::jupyter=1.0
+  - conda-forge::ipywidgets=7.6
+  - conda-forge::pydub=0.25
+  - conda-forge::scikit-learn=1.0
+  - conda-forge::jupyterlab=3.3
+  - conda-forge::jupyter_contrib_nbextensions=0.5
+  - pytorch::pytorch=1.11
+  - pytorch::torchvision=0.12
+  - pytorch::torchaudio=0.11
+  - conda-forge::cudatoolkit=11.3
+  - anaconda::boto3=1.20
+  - pip=22.0
+  - pip:
+    - ipython==8.0
+    - jupyterlab_latex==3.1
+    - nbgitpuller==1.0
+    - librosa==0.9
+    - SoundFile==0.10.3.post1
+    - PyAudio==0.2.11

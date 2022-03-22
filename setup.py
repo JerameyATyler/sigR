@@ -10,9 +10,10 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [ ]
+requirements = []
 
-test_requirements = [ ]
+test_requirements = ['matplotlib', 'seaborn', 'numpy', 'scipy', 'pydub', 'IPython', 'librosa', 'boto3', 'dask',
+                     'pandas', 'scikit-learn', 'torch']
 
 setup(
     author="Jeramey Tyler",
